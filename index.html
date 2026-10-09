@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10251f">
+<meta name="description" content="Artha Capital — thoughtful capital, enduring value. Investment management built around discipline, perspective, and long-term partnership.">
+<title>Artha Capital — Thoughtful Capital. Enduring Value.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#10251f;--forest2:#183a30;--cream:#f5f3ed;--paper:#fffefa;--gold:#c8a66a;--muted:#68736c;--line:#dedfd7;--serif:Georgia,'Times New Roman',serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--forest);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}
+nav{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.15);position:absolute;top:0;left:0;width:100%;z-index:5;color:#fff;padding:0 max(24px,calc((100vw - 1180px)/2))}
+.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-size:18px;font-weight:800;letter-spacing:.09em}.mark{width:35px;height:35px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-family:var(--serif);font-size:22px;transform:rotate(45deg)}.mark span{transform:rotate(-45deg)}.navlinks{display:flex;align-items:center;gap:32px;font-size:12px;letter-spacing:.09em;text-transform:uppercase}.navlinks a{opacity:.82;transition:opacity .2s}.navlinks a:hover{opacity:1}.navcta{border:1px solid rgba(255,255,255,.55);padding:13px 18px!important;opacity:1!important}
+.hero{min-height:720px;background:linear-gradient(90deg,rgba(9,27,22,.92) 0%,rgba(9,27,22,.74) 45%,rgba(9,27,22,.18) 100%),url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=85') center/cover;display:flex;align-items:center;color:#fff;padding:150px 0 100px;position:relative}.hero:after{content:"";position:absolute;bottom:0;left:0;right:0;height:5px;background:var(--gold)}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700;display:flex;gap:12px;align-items:center}.eyebrow:before{content:"";width:30px;height:1px;background:currentColor}.hero h1{font-family:var(--serif);font-size:clamp(52px,7vw,92px);font-weight:400;line-height:1.02;letter-spacing:-.035em;max-width:760px;margin:28px 0}.hero h1 em{color:#d7bd8c;font-weight:400}.hero p{font-size:17px;line-height:1.8;color:rgba(255,255,255,.76);max-width:500px;margin:0 0 36px}.btn{display:inline-flex;align-items:center;gap:24px;background:var(--gold);color:var(--forest);padding:17px 22px;font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#d7bd8c}.btn .arrow{font-size:18px}.hero-note{position:absolute;right:max(24px,calc((100vw - 1180px)/2));bottom:58px;writing-mode:vertical-rl;letter-spacing:.18em;font-size:10px;text-transform:uppercase;color:rgba(255,255,255,.68)}
+.trust{background:var(--forest2);color:#fff}.trust .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding:30px 0}.trustitem{padding:6px 30px;border-right:1px solid rgba(255,255,255,.18);display:flex;align-items:center;gap:16px}.trustitem:first-child{padding-left:0}.trustitem:last-child{border:0}.trustnum{font-family:var(--serif);font-size:30px;color:var(--gold)}.trustlabel{font-size:12px;line-height:1.5;color:rgba(255,255,255,.72)}
+section{padding:110px 0}.introgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:100px;align-items:start}.sectionlabel{color:#8b7040;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}.intro h2,.approach h2,.contact h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,4.6vw,59px);line-height:1.1;letter-spacing:-.025em;margin:20px 0}.introcopy{font-size:17px;line-height:1.85;color:#5e6a62;margin-top:7px}.textlink{display:inline-flex;gap:14px;align-items:center;border-bottom:1px solid var(--gold);padding-bottom:10px;margin-top:18px;font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:700}.textlink span{color:#9a7842;font-size:19px}
+.pillars{background:var(--paper)}.sectionhead{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:50px}.sectionhead h2{font-family:var(--serif);font-size:clamp(38px,4.5vw,58px);font-weight:400;line-height:1.08;max-width:580px;margin:18px 0 0}.sectionhead p{color:var(--muted);line-height:1.8;max-width:330px;margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.pillar{padding:34px 32px 40px 0;position:relative}.pillar+.pillar{padding-left:32px;border-left:1px solid var(--line)}.pillar .num{font-family:var(--serif);font-size:15px;color:#9a7842}.pillar h3{font-family:var(--serif);font-weight:400;font-size:29px;margin:30px 0 14px}.pillar p{color:var(--muted);line-height:1.8;font-size:14px;margin:0;max-width:310px}.pillar .icon{height:46px;width:46px;border:1px solid #d9c9a9;border-radius:50%;display:grid;place-items:center;color:#8b7040;font-size:20px;margin-top:35px}
+.approach{background:var(--forest);color:#fff;position:relative;overflow:hidden}.approach:after{content:"A";position:absolute;right:-2vw;bottom:-180px;font-family:var(--serif);font-size:570px;line-height:1;color:rgba(255,255,255,.025);pointer-events:none}.approachgrid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center;position:relative;z-index:1}.approach h2{max-width:520px}.approach p{font-size:15px;line-height:1.9;color:rgba(255,255,255,.68);max-width:490px}.steps{border-top:1px solid rgba(255,255,255,.18)}.step{display:grid;grid-template-columns:50px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.18)}.stepnum{font-family:var(--serif);font-size:23px;color:var(--gold)}.step h3{font-size:16px;margin:2px 0 8px;font-weight:600}.step p{font-size:13px;margin:0;line-height:1.7}
+.contact{background:#eae8df}.contactgrid{display:grid;grid-template-columns:1fr .8fr;gap:100px;align-items:center}.contact h2{max-width:590px}.contact p{color:var(--muted);line-height:1.85;max-width:490px}.contactbox{background:var(--paper);padding:36px;border:1px solid #dedbd0}.contactbox .mini{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#8b7040;font-weight:700}.contactbox h3{font-family:var(--serif);font-size:28px;font-weight:400;margin:16px 0}.contactbox p{font-size:14px}.contactbox a{display:block;border-bottom:1px solid var(--line);padding:16px 0;font-size:13px}.contactbox a:last-child{border:0}.contactbox a span{float:right;color:#8b7040}
+footer{background:#0b1b16;color:#fff;padding:34px 0}.footrow{display:flex;justify-content:space-between;align-items:center;gap:25px}.footbrand{font-size:14px}.footnote{font-size:11px;color:rgba(255,255,255,.5);line-height:1.7;max-width:560px;text-align:center}.copyright{font-size:11px;color:rgba(255,255,255,.5);white-space:nowrap}
+@media(max-width:800px){.navlinks{gap:14px}.navlinks a:not(.navcta){display:none}.hero{min-height:670px}.hero-note{display:none}.trust .wrap{grid-template-columns:1fr;padding:12px 0}.trustitem,.trustitem:first-child{padding:18px 0;border-right:0;border-bottom:1px solid rgba(255,255,255,.15)}.trustitem:last-child{border:0}.introgrid,.approachgrid,.contactgrid{grid-template-columns:1fr;gap:36px}.introgrid{gap:25px}section{padding:76px 0}.sectionhead{display:block}.sectionhead p{margin-top:20px}.cards{grid-template-columns:1fr}.pillar,.pillar+.pillar{padding:28px 0;border-left:0;border-bottom:1px solid var(--line)}.pillar:last-child{border-bottom:0}.pillar h3{margin-top:20px}.pillar .icon{margin-top:22px}.footrow{flex-direction:column;text-align:center}.footnote{order:3}.copyright{white-space:normal}}
+@media(max-width:420px){.wrap{width:calc(100% - 36px)}nav{padding:0 18px}.brand{font-size:15px}.navcta{padding:11px 12px!important;font-size:10px}.hero h1{font-size:51px}.hero p{font-size:15px}.contactbox{padding:25px}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="brand" href="#home" aria-label="Artha Capital home"><span class="mark"><span>A</span></span> ARTHA CAPITAL</a>
+  <div class="navlinks"><a href="#philosophy">Our philosophy</a><a href="#approach">Our approach</a><a class="navcta" href="#contact">Connect with us ↗</a></div>
+</nav>
+<header class="hero" id="home">
+  <div class="wrap">
+    <div class="eyebrow">Independent perspective. Long-term thinking.</div>
+    <h1>Thoughtful capital.<br><em>Enduring value.</em></h1>
+    <p>We bring clarity, conviction, and a long-term perspective to the decisions that shape financial futures.</p>
+    <a class="btn" href="#philosophy">Discover our philosophy <span class="arrow">↗</span></a>
+  </div>
+  <div class="hero-note">Built on trust · Guided by purpose</div>
+</header>
+<div class="trust"><div class="wrap">
+  <div class="trustitem"><div class="trustnum">01</div><div class="trustlabel">A disciplined approach<br>to capital allocation</div></div>
+  <div class="trustitem"><div class="trustnum">02</div><div class="trustlabel">Perspective beyond<br>market cycles</div></div>
+  <div class="trustitem"><div class="trustnum">03</div><div class="trustlabel">Partnership grounded<br>in enduring trust</div></div>
+</div></div>
+<main>
+<section class="intro" id="philosophy"><div class="wrap introgrid">
+  <div><div class="sectionlabel">The Artha philosophy</div><h2>Wealth is more than a number.</h2></div>
+  <div><p class="introcopy">At Artha Capital, we believe meaningful wealth is built with intention. It takes a clear point of view, thoughtful risk management, and the patience to let sound decisions compound over time.</p><p class="introcopy">Our philosophy brings together analytical rigour and a deeply personal understanding of what capital represents: possibility, security, and the freedom to shape what comes next.</p><a class="textlink" href="#approach">How we think <span>↗</span></a></div>
+</div></section>
+<section class="pillars"><div class="wrap">
+  <div class="sectionhead"><div><div class="sectionlabel">What guides us</div><h2>Principles over noise.<br>Purpose over short-termism.</h2></div><p>Markets evolve. Our commitment to considered decisions, transparent relationships, and lasting value remains constant.</p></div>
+  <div class="cards">
+    <article class="pillar"><div class="num">01 / Conviction</div><h3>Clarity of thought</h3><p>We ask better questions, challenge assumptions, and seek the substance beneath the headlines before making decisions.</p><div class="icon">↗</div></article>
+    <article class="pillar"><div class="num">02 / Discipline</div><h3>Measured by the long term</h3><p>We look beyond short-term fluctuations, balancing opportunity with a considered view of risk and resilience.</p><div class="icon">◎</div></article>
+    <article class="pillar"><div class="num">03 / Partnership</div><h3>Trust, earned every day</h3><p>We value open conversations and aligned interests, building relationships that are designed to stand the test of time.</p><div class="icon">◇</div></article>
+  </div>
+</div></section>
+<section class="approach" id="approach"><div class="wrap approachgrid">
+  <div><div class="sectionlabel">Our approach</div><h2>Steady hands.<br>Clear-eyed ambition.</h2><p>Good investment decisions begin with understanding. We focus on the fundamentals, stay alert to change, and remain accountable to the objectives that matter most.</p><a class="btn" href="#contact">Start a conversation <span class="arrow">↗</span></a></div>
+  <div class="steps">
+    <div class="step"><div class="stepnum">01</div><div><h3>Understand the bigger picture</h3><p>Begin with your objectives, time horizon, and the role capital needs to play.</p></div></div>
+    <div class="step"><div class="stepnum">02</div><div><h3>Build with intention</h3><p>Apply research, independent thinking, and risk awareness to each decision.</p></div></div>
+    <div class="step"><div class="stepnum">03</div><div><h3>Stay focused on what matters</h3><p>Review, adapt, and maintain perspective as conditions and priorities evolve.</p></div></div>
+  </div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap contactgrid">
+  <div><div class="sectionlabel">The next chapter starts here</div><h2>Let's talk about what you're building.</h2><p>Every enduring partnership begins with a conversation. Connect with Artha Capital to explore whether our perspective and approach are right for your goals.</p></div>
+  <div class="contactbox"><div class="mini">Artha Capital</div><h3>Open a conversation.</h3><p>We welcome thoughtful conversations with investors, partners, and institutions who share a long-term outlook.</p><a href="mailto:hello@arthacapital.com">hello@arthacapital.com <span>↗</span></a><a href="#home">Return to the beginning <span>↑</span></a></div>
+</div></section>
+</main>
+<footer><div class="wrap footrow">
+  <a class="brand footbrand" href="#home"><span class="mark"><span>A</span></span> ARTHA CAPITAL</a>
+  <div class="footnote">This website is for general informational purposes only and does not constitute investment advice, an offer, or a solicitation. Investment involves risk. Please seek independent professional advice where appropriate.</div>
+  <div class="copyright">© <span id="year"></span> Artha Capital</div>
+</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
